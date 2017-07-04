@@ -1,0 +1,4 @@
+#! /usr/bin/env ruby
+
+require 'github_organization_member_list'
+GithubOrganizationMemberList::Command.start(ARGV)
